@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MAL FURKAN</title>
+	<style>
+		body {
+			background-image: linear-gradient(to right, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
+		}
+
+		h1 {
+			font-size: 48px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: #333;
+			text-align: center;
+			margin-top: 100px;
+		}
+
+		.contact-form {
+			width: 50%;
+			margin: 0 auto;
+			background-color: #f1f1f1;
+			padding: 20px;
+			border-radius: 10px;
+		}
+
+		input[type=text], textarea {
+			width: 100%;
+			padding: 12px;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+			margin-top: 6px;
+			margin-bottom: 16px;
+			resize: vertical;
+		}
+
+		input[type=submit] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+
+		input[type=submit]:hover {
+			background-color: #45a049;
+		}
+
+		.footer {
+			text-align: center;
+			color: #fff;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>MAL FURKAN</h1>
+
+	<div class="contact-form">
+		<form>
+			<label for="fname">Adınız</label>
+			<input type="text" id="fname" name="firstname" placeholder="Adınız..">
+
+			<label for="lname">Soyadınız</label>
+			<input type="text" id="lname" name="lastname" placeholder="Soyadınız..">
+
+			<label for="email">E-posta</label>
+			<input type="text" id="email" name="email" placeholder="E-posta adresiniz..">
+
+			<label for="message">Mesajınız</label>
+			<textarea id="message" name="message" placeholder="Mesajınızı buraya yazın.." style="height:200px"></textarea>
+
+			<input type="submit" value="Gönder">
+		</form>
+	</div>
+
+	<div class="footer">
+		<p>FURKAN GODDEN VERINCE GELEN PIŞMANLIK HISSI</p>
+	</div>
+</body>
+</html>
